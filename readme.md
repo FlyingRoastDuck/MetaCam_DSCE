@@ -112,7 +112,10 @@ If you find our code useful, please cite their papers.
    [BaiduNetDisk](https://pan.baidu.com/s/1c_lmWhlQ5rZ4frDJhFLwIg), Passwd: ydrf.
    [Google Drive](https://drive.google.com/file/d/1lk4DbkJR9BWpVFb_AnFUlFJPmQVrj-MX/view?usp=sharing).
    
-   Please download 'marCam' and 'dukeCam' and put them under 'MetaCam_DSCE/data'
+   Please download 'marCam' and 'dukeCam', 
+   put them under 'MetaCam_DSCE/data' 
+   and uncomment corresponding code.
+   (e.g., L#87-89, L#163-168 of train_usl_knn_merge.py)
    
 
 
