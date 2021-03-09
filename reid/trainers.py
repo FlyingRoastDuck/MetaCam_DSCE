@@ -201,6 +201,16 @@ class CamTrainer(object):
 
 
 # meta-learning
+
+# ```
+# Why do you use resMeta rather than resnet50 in torchvision ?
+# I suggest that you should read this code first.
+# https://github.com/AdrienLE/ANIML/blob/master/ANIML.ipynb
+# It explains why should we use "MetaModule", "MetaConv2d", "MetaBatchNorm2d"
+# to replace original "Module", "Conv2d", "BatchNorm2d" in Pytorch.
+# Here is part of the explanation. (figures/meta.png)
+# ```
+
 class MetaTrainer(object):
     def __init__(self, encoder, memory):
         super(MetaTrainer, self).__init__()
@@ -244,6 +254,9 @@ class MetaTrainer(object):
             new_meta.update_params(
                 lr_inner=meta_lr, source_params=grad_info, solver='sgd'
             )
+            # According to Eq. 7, the temporary model (new_meta) is now related to the original model (self.encoder)
+            # through 'grad_info'(grad_info is differentiable with 'create_graph=True'), and we can obtain high-order
+            # gradients to optimize self.encoder
             del grad_info
             new_meta = nn.DataParallel(new_meta).to(self.device)
 
