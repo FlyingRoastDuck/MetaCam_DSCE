@@ -93,7 +93,7 @@ If you find our code useful, please cite their papers.
 
 ### Citation
 ```yang
-@inproceedings{yang2021meta,
+@inproceedings{yang2021joint,
   title={Joint Noise-Tolerant Learning and Meta Camera Shift Adaptation for Unsupervised Person Re-Identification},
   author={Yang, Fengxiang and Zhong, Zhun and Luo, Zhiming and Cai, Yuanzheng and Li, Shaozi and Nicu, Sebe},
   booktitle={CVPR},
