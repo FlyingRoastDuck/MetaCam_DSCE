@@ -6,6 +6,7 @@ import random
 import math
 import numpy as np
 
+
 class RectScale(object):
     def __init__(self, height, width, interpolation=Image.BILINEAR):
         self.height = height
@@ -39,7 +40,7 @@ class RandomSizedRectCrop(object):
                 y1 = random.randint(0, img.size[1] - h)
 
                 img = img.crop((x1, y1, x1 + w, y1 + h))
-                assert(img.size == (w, h))
+                assert (img.size == (w, h))
 
                 return img.resize((self.width, self.height), self.interpolation)
 
