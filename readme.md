@@ -4,7 +4,8 @@
 
 Code for our CVPR 2021 paper "MetaCam+DSCE".
 
-####[2021.5.24] We recorded an introduction video on [Zhidongxi](https://course.zhidx.com/c/OWYyZTMxNzJhYTA2YzEyYjZhYjM=).
+[2021.5.24] 
+We recorded an introduction video on [Zhidongxi](https://course.zhidx.com/c/OWYyZTMxNzJhYTA2YzEyYjZhYjM=).
 
 ![](figures/metacam.png)
 
@@ -115,9 +116,9 @@ If you find our code useful, please cite their papers.
    [Google Drive](https://drive.google.com/file/d/1lk4DbkJR9BWpVFb_AnFUlFJPmQVrj-MX/view?usp=sharing).
    
    Please download 'marCam' and 'dukeCam', 
-   put them under 'MetaCam_DSCE/data' 
-   and uncomment corresponding code.
-   (e.g., L#87-89, L#163-168 of train_usl_knn_merge.py)
+   put them under 'MetaCam_DSCE/data', 
+   uncomment L#87-89 and L#163-168 of train_usl_knn_merge.py 
+   to visualize pedestrian features.
    
 3. Training logs.
    [BaiduNetDisk](https://pan.baidu.com/s/1pnauFTHi9b6J-6ZCUCZJHg), Passwd: 7eq4.
