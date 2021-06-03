@@ -4,7 +4,7 @@
 
 Code for our CVPR 2021 paper "MetaCam+DSCE".
 
-[2021.5.24] We recorded an introduction video on [Zhidongxi](https://course.zhidx.com/c/OWYyZTMxNzJhYTA2YzEyYjZhYjM=)
+####[2021.5.24] We recorded an introduction video on [Zhidongxi](https://course.zhidx.com/c/OWYyZTMxNzJhYTA2YzEyYjZhYjM=).
 
 ![](figures/metacam.png)
 
