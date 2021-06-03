@@ -119,6 +119,10 @@ If you find our code useful, please cite their papers.
    and uncomment corresponding code.
    (e.g., L#87-89, L#163-168 of train_usl_knn_merge.py)
    
+3. Training logs.
+   [BaiduNetDisk](https://pan.baidu.com/s/1pnauFTHi9b6J-6ZCUCZJHg), Passwd: 7eq4.
+   [Google Drive](https://drive.google.com/drive/folders/15jxAP0E1K6rE9Z4jH64Qy5bO8O6jA96A?usp=sharing).
+   
 
 
 ### Contact Us
