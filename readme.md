@@ -70,7 +70,7 @@ If you find our code useful, please cite their papers.
 ```MWNet
 @inproceedings{shu2019meta,
   title={Meta-Weight-Net: Learning an Explicit Mapping For Sample Weighting},
-  author={Shu, Jun and Xie, Qi and Yi, Lixuan and Zhao, Qian and Zhou, Sanping and Xu, Zongben and Meng, Deyu},
+  author={Shu Jun and Xie Qi and Yi Lixuan and Zhao Qian and Zhou Sanping and Xu Zongben and Meng Deyu},
   booktitle={NeurIPS},
   year={2019}
 }
@@ -79,7 +79,7 @@ If you find our code useful, please cite their papers.
 ```ECN
 @inproceedings{zhong2019invariance,
   title={Invariance Matters: Exemplar Memory for Domain Adaptive Person Re-identiﬁcation},
-  author={Zhong, Zhun and Zheng, Liang and Luo, Zhiming and Li, Shaozi and Yang, Yi},
+  author={Zhong Zhun and Zheng Liang and Luo Zhiming and Li Shaozi and Yang Yi},
   booktitle={CVPR},
   year={2019},
 }
@@ -88,7 +88,7 @@ If you find our code useful, please cite their papers.
 ```SpCL
 @inproceedings{ge2020selfpaced,
     title={Self-paced Contrastive Learning with Hybrid Memory for Domain Adaptive Object Re-ID},
-    author={Yixiao Ge and Feng Zhu and Dapeng Chen and Rui Zhao and Hongsheng Li},
+    author={Ge Yixiao and Zhu Feng and Chen Dapeng and Zhao Rui and Li Hongsheng},
     booktitle={NeurIPS},
     year={2020}
 }
@@ -98,7 +98,7 @@ If you find our code useful, please cite their papers.
 ```yang
 @inproceedings{yang2021joint,
   title={Joint Noise-Tolerant Learning and Meta Camera Shift Adaptation for Unsupervised Person Re-Identification},
-  author={Yang, Fengxiang and Zhong, Zhun and Luo, Zhiming and Cai, Yuanzheng and Lin, Yaojin and Li, Shaozi and Sebe, Nicu},
+  author={Yang Fengxiang and Zhong Zhun and Luo Zhiming and Cai Yuanzheng and Lin Yaojin and Li Shaozi and Nicu Sebe},
   booktitle={CVPR},
   pages={4855--4864},
   year={2021}
