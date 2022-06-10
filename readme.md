@@ -41,6 +41,9 @@ We recorded an introduction video on [Zhidongxi](https://course.zhidx.com/c/OWYy
             | 
             └───list_val.txt (only for MSMT-17)
    ```
+链接: https://pan.baidu.com/s/1RXMwZuNvvacRboesFJo0Yw 提取码: jvq5 
+--来自百度网盘超级会员v5的分享
+
 
 [comment]: <> (### Before You Start)
 
@@ -105,15 +108,14 @@ If you find our code useful, please cite their papers.
 }
 ```
 
-
 ### Resources
 
 1. Pre-trained MMT-500 models to reproduce Tab. 3 of our paper. 
-   [BaiduNetDisk](https://pan.baidu.com/s/1E2d_oMBYIn5dByccLIvIAw), Passwd: nsbv.
+   [BaiduNetDisk](https://pan.baidu.com/s/1GDMFDrOpd3H7FA3t35Sv6A), Passwd: jr1l.
    [Google Drive](https://drive.google.com/drive/folders/1sEi9fOeNQmrjQ4ZEQ3sbsKg26Dc6Boe1?usp=sharing).
    
 2. Pedestrian images used to plot Fig.3 in our paper. 
-   [BaiduNetDisk](https://pan.baidu.com/s/1c_lmWhlQ5rZ4frDJhFLwIg), Passwd: ydrf.
+   [BaiduNetDisk](https://pan.baidu.com/s/1ahoj3fk-6OwCM4yWeDJbiQ), Passwd: f248.
    [Google Drive](https://drive.google.com/file/d/1lk4DbkJR9BWpVFb_AnFUlFJPmQVrj-MX/view?usp=sharing).
    
    Please download 'marCam' and 'dukeCam', 
@@ -122,7 +124,7 @@ If you find our code useful, please cite their papers.
    to visualize pedestrian features.
    
 3. Training logs.
-   [BaiduNetDisk](https://pan.baidu.com/s/1pnauFTHi9b6J-6ZCUCZJHg), Passwd: 7eq4.
+   [BaiduNetDisk](https://pan.baidu.com/s/1Dq2PjJXDLfjM8gQIQcbN6A), Passwd: mecq.
    [Google Drive](https://drive.google.com/drive/folders/15jxAP0E1K6rE9Z4jH64Qy5bO8O6jA96A?usp=sharing).
    
 
