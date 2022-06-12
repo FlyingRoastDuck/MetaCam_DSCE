@@ -2,10 +2,10 @@
 
 ### Introduction
 
-Code for our CVPR 2021 paper "MetaCam+DSCE".
+This is the official repo for the CVPR 2021 paper "MetaCam+DSCE".
 
 [2021.5.24] 
-We recorded an introduction video on [Zhidongxi](https://course.zhidx.com/c/OWYyZTMxNzJhYTA2YzEyYjZhYjM=).
+We recorded a video on [Zhidongxi](https://course.zhidx.com/c/OWYyZTMxNzJhYTA2YzEyYjZhYjM=).
 
 ![](figures/metacam.png)
 
@@ -42,20 +42,6 @@ We recorded an introduction video on [Zhidongxi](https://course.zhidx.com/c/OWYy
             └───list_val.txt (only for MSMT-17)
    ```
 
-[comment]: <> (### Before You Start)
-
-[comment]: <> (If you are not familiar with meta-learning, I suggest that you should )
-
-[comment]: <> (read [this code]&#40;https://github.com/AdrienLE/ANIML/blob/master/ANIML.ipynb&#41; first. )
-
-[comment]: <> (It explains why should we use "MetaModule" &#40;"MetaConv2d", "MetaBatchNorm2d", etc.&#41; )
-
-[comment]: <> (to replace original "Module" &#40;"Conv2d", "BatchNorm2d", etc.&#41; in Pytorch. )
-
-[comment]: <> (Here is part of the explanation.)
-
-[comment]: <> (![]&#40;figures/meta.png&#41;)
-
 ### Usage
 
 See [run.sh](run.sh) for details.
@@ -66,44 +52,6 @@ This repo borrows partially from [MWNet (meta-learning)](https://github.com/xjtu
 [ECN (exemplar memory)](https://github.com/zhunzhong07/ECN) and 
 [SpCL (faiss-based acceleration)](https://github.com/yxgeee/SpCL). 
 If you find our code useful, please cite their papers.
-
-```MWNet
-@inproceedings{shu2019meta,
-  title={Meta-Weight-Net: Learning an Explicit Mapping For Sample Weighting},
-  author={Shu Jun and Xie Qi and Yi Lixuan and Zhao Qian and Zhou Sanping and Xu Zongben and Meng Deyu},
-  booktitle={NeurIPS},
-  year={2019}
-}
-```
-
-```ECN
-@inproceedings{zhong2019invariance,
-  title={Invariance Matters: Exemplar Memory for Domain Adaptive Person Re-identiﬁcation},
-  author={Zhong Zhun and Zheng Liang and Luo Zhiming and Li Shaozi and Yang Yi},
-  booktitle={CVPR},
-  year={2019},
-}
-```
-
-```SpCL
-@inproceedings{ge2020selfpaced,
-    title={Self-paced Contrastive Learning with Hybrid Memory for Domain Adaptive Object Re-ID},
-    author={Ge Yixiao and Zhu Feng and Chen Dapeng and Zhao Rui and Li Hongsheng},
-    booktitle={NeurIPS},
-    year={2020}
-}
-```
-
-### Citation
-```yang
-@inproceedings{yang2021joint,
-  title={Joint Noise-Tolerant Learning and Meta Camera Shift Adaptation for Unsupervised Person Re-Identification},
-  author={Yang Fengxiang and Zhong Zhun and Luo Zhiming and Cai Yuanzheng and Lin Yaojin and Li Shaozi and Nicu Sebe},
-  booktitle={CVPR},
-  pages={4855--4864},
-  year={2021}
-}
-```
 
 ### Resources
 
@@ -125,6 +73,17 @@ If you find our code useful, please cite their papers.
    [Google Drive](https://drive.google.com/drive/folders/15jxAP0E1K6rE9Z4jH64Qy5bO8O6jA96A?usp=sharing).
    
 
+
+### How to Cite
+```yang
+@inproceedings{yang2021joint,
+  title={Joint Noise-Tolerant Learning and Meta Camera Shift Adaptation for Unsupervised Person Re-Identification},
+  author={Yang Fengxiang and Zhong Zhun and Luo Zhiming and Cai Yuanzheng and Lin Yaojin and Li Shaozi and Nicu Sebe},
+  booktitle={CVPR},
+  pages={4855--4864},
+  year={2021}
+}
+```
 
 ### Contact Us
 
