@@ -41,9 +41,6 @@ We recorded an introduction video on [Zhidongxi](https://course.zhidx.com/c/OWYy
             | 
             └───list_val.txt (only for MSMT-17)
    ```
-链接: https://pan.baidu.com/s/1RXMwZuNvvacRboesFJo0Yw 提取码: jvq5 
---来自百度网盘超级会员v5的分享
-
 
 [comment]: <> (### Before You Start)
 
