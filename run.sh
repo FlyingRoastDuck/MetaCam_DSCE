@@ -1,4 +1,4 @@
-# all examples are based on "DukeMTMC-reID", for "Market1501", please replace "dukemtmc" to "market1501"
+# all the following commands are based on "DukeMTMC-reID". For "Market1501", please replace "dukemtmc" with "market1501".
 
 
 # meta, with robust loss, with outlier
@@ -25,6 +25,6 @@ python -W ignore train_usl_no_outlier.py -d dukemtmc --logs-dir ./logs --data-di
 # Tab. 1, Row "WFDR" of our paper
 python -W ignore train_usl_knn_merge_cam.py -d dukemtmc --logs-dir ./logs --data-dir ./data --symmetric
 
-# UDA, w/o meta, with outlier, with robust loss, with camera distribution align loss, MMT-pretrain
+# UDA, w/o meta, with outlier, with robust loss, w/o camera distribution align loss, MMT-pretrain
 # Tab. 3, Row "MMT500+Ours" in our paper. The download link of "MMTD2M.pth" are provided in "Resource" of readme.md
 python -W ignore meta_train_uda_knn_merge.py -s dukemtmc -t market1501 --logs-dir ./logs --data-dir ./data --symmetric --resume ./MMTD2M.pth
